@@ -97,7 +97,7 @@ setx DEVROOT $devRootDir
 $boxStarterPackageDir = Join-Path $devRootDir "\provisioning\windows\BoxStarter Packages\"
 
 while (![System.IO.Directory]::Exists($boxStarterPackageDir)) {
-   $createBoxStarterPackageDir = read-host "BoxStarter package location does not exist. Do you want to create it? (y/N/q)"
+   $createBoxStarterPackageDir = read-host "BoxStarter package location does not exist. Do you want to create it? (y/q)"
 
    if ($createBoxStarterPackageDir -eq "y") {
       [System.IO.Directory]::CreateDirectory($boxStarterPackageDir)
