@@ -7,6 +7,16 @@ All scripts rely on [Chocolatey](http://chocolatey.org/) so each script will cal
 
 **Currently only tested on Windows 7 64 bit**
 
+How to Use
+-------------
+
+1. Open the following URL in IE: http://boxstarter.org/package/boxstarter,git
+  
+   + This will install BoxStarter and Git on your system
+
+2. TO BE COMPLETED...
+
+
 Scripts
 ----------
 
