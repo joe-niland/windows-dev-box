@@ -1,0 +1,4 @@
+Set-ExplorerOptions -showFileExtensions
+Enable-RemoteDesktop
+Enable-MicrosoftUpdate
+Update-ExecutionPolicy RemoteSigned
