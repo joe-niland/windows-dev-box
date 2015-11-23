@@ -1,13 +1,4 @@
-cinst GoogleChrome cmder TotalCommander truecrypt lastpass onedrive
+cinst GoogleChrome cmder truecrypt lastpass onedrive
+cinst TotalCommander -version 8.52.01
 choco install gcm -pre
-
-# $gitPath = "C:\Program Files\Git"
-
-# if ($($env:Path).ToLower().Contains($($gitPath).ToLower()) -eq $false) {
-#   $currentUserPath = [Environment]::GetEnvironmentVariable( "Path", [System.EnvironmentVariableTarget]::User )
-#   [Environment]::SetEnvironmentVariable( "Path", 
-#      $currentUserPath + ";" + $gitPath + "\cmd;" + $gitPath + "\bin", 
-#      [System.EnvironmentVariableTarget]::User )
-#}
-
 cinst Powershell -pre
