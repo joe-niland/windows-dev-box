@@ -1,7 +1,7 @@
 Windows Dev Box Setup Scripts
 ==============================
 
-This repo stores scripts that I use to set up a new Windows dev box.
+This repo stores scripts that I use to set up a new Windows dev box. I install large products such as Visual Studio from ISO, so they are not included. There **are** versions available in Chocolatey, though, so do this if this suits you better.
 
 All scripts rely on [Chocolatey](http://chocolatey.org/) so each script will call `install-dev-common.ps1` to ensure that Chocolatey is available.
 
@@ -14,11 +14,32 @@ How to Use
   
    + This will install BoxStarter and Git on your system
 
-2. TO BE COMPLETED...
+2. Configure Windows: 
+   + Open cmd.exe and run: `START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/configure-windows.ps1`
+
+3. Install basic tools
+   + START https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/install-base.ps1
+
 
 
 Scripts
 ----------
+
+### configure-windows.ps1
+
++ Configures Windows Explorer to show extensions
++ Enables Remote Desktop
++ Enables Microsoft Update
++ Change PS execution policy to RemoteSigned
+
+### install-base.ps1
+
++ Install:
+++ Git
+++ Google Chrome
+++ cmder
+++ TotalCommander
++ Add Git to the user environment variable **PATH**
 
 ### install-dev-common.ps1
 
