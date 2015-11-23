@@ -10,16 +10,24 @@ All scripts rely on [Chocolatey](http://chocolatey.org/) so each script will cal
 How to Use
 -------------
 
-1. Open the following URL in IE: http://boxstarter.org/package/boxstarter
-  
-   + This will install BoxStarter on your system.
+### Option 1: Boxstarter URLs
 
-2. Configure Windows: 
+1. Configure Windows: 
    + Open cmd.exe and run: `START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/configure-windows.ps1`
 
-3. Install basic tools
+2. Install basic tools
    + START https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/install-base.ps1
 
+### Option 2: Running locally
+
+You can clone this repo, then install BoxStarter:
+
+Open the following URL in IE: **http://boxstarter.org/package/boxstarter**
+This will install BoxStarter on your system.
+
+Then run each script:
+
+`powershell -ExecutionPolicy Bypass -NoProfile -file install-dev-<whatever>.ps1`
 
 
 Scripts
@@ -35,10 +43,10 @@ Scripts
 ### install-base.ps1
 
 + Install:
-++ Git
-++ Google Chrome
-++ cmder
-++ TotalCommander
+   * Git
+   * Google Chrome
+   * cmder
+   * TotalCommander
 + Add Git to the user environment variable **PATH**
 
 ### install-dev-common.ps1
@@ -51,14 +59,10 @@ Scripts
 ### install-dev-dotnet.ps1
 
 + Installs the following Chocolatey packages:
-    * DotNet4.5 
-    * DotNet4.5.1 
-    * tfs2013powertools 
-    * webpi 
-    * fiddler 
+    * DotNet4.6 
+    * tfs2015powertools 
+    * fiddler4
     * Linqpad4 
-    * Logparser 
-    * Logparser.LizardGui
 
 + Installs the following Chocolatey packages via WebPI:
     * IIS-ASPNET 
@@ -80,8 +84,9 @@ Scripts
 + Installs appfabric
 
 **More work to do on this one - I have an AppFabric Cache configuration script to clean up and add here.**
+**Will probably decomission this shortly, in favour of Redis**
 
-### install-dev-additional.ps1
+### install-dev-tools.ps1
 
 + Installs the following Chocolatey packages:
     * putty 
@@ -89,8 +94,9 @@ Scripts
     * winscp 
     * openssl.light 
     * psget 
-    * jump-location
     * git-credential-winstore
+    * Logparser 
+    * Logparser.LizardGui
 
 ### install-dev-js.ps1
 
@@ -98,11 +104,8 @@ Front-end Javascript and node.js dev tools.
 
 + Installs the following Chocolatey packages:
     * nodejs.install 
+    * visualstudiocode
     * ruby 
     * Compass 
     * Yeoman
 
-Usage
----------
-
-`powershell -ExecutionPolicy Bypass -NoProfile -file install-dev-<whatever>.ps1`
