@@ -10,9 +10,9 @@ All scripts rely on [Chocolatey](http://chocolatey.org/) so each script will cal
 How to Use
 -------------
 
-1. Open the following URL in IE: http://boxstarter.org/package/boxstarter,git
+1. Open the following URL in IE: http://boxstarter.org/package/boxstarter
   
-   + This will install BoxStarter and Git on your system
+   + This will install BoxStarter on your system.
 
 2. Configure Windows: 
    + Open cmd.exe and run: `START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/configure-windows.ps1`
