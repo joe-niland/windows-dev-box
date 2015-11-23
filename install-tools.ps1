@@ -1,3 +1,3 @@
 # Non-development tools
 
-cinst btsync Firefox skype
+cinst btsync Firefox skype virtualclonedrive
