@@ -1,3 +1,4 @@
 # Non-development tools
 
-cinst btsync Firefox skype virtualclonedrive aria2
+cinst Firefox skype virtualclonedrive aria2
+cinst btsync -version 2.0.105
