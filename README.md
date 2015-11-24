@@ -13,10 +13,10 @@ How to Use
 ### Option 1: Boxstarter URLs
 
 1. Configure Windows: 
-   + Open cmd.exe and run: `START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/configure-windows.ps1`
+   + Open cmd.exe and run: `"%ProgramFiles%\Internet Explorer\iexplore.exe" -extoff "http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/configure-windows.ps1"`
 
-2. Install basic tools
-   + START https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/install-base.ps1
+2. Install essentials:
+   +  `"%ProgramFiles%\Internet Explorer\iexplore.exe" -extoff "http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/install-base.ps1"`
 
 ### Option 2: Running locally
 
