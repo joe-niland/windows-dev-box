@@ -1,4 +1,4 @@
-& .\install-dev-common.ps1
+# & .\install-dev-common.ps1
 
 Write-Host "Installing other Windows services"
 
