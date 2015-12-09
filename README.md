@@ -3,8 +3,6 @@ Windows Dev Box Setup Scripts
 
 This repo stores scripts that I use to set up a new Windows dev box. I install large products such as Visual Studio from ISO, so they are not included. There **are** versions available in Chocolatey, though, so do this if this suits you better.
 
-All scripts rely on [Chocolatey](http://chocolatey.org/) so each script will call `install-dev-common.ps1` to ensure that Chocolatey is available.
-
 **Currently only tested on Windows 7 64 bit**
 
 How to Use
@@ -17,6 +15,10 @@ How to Use
 
 2. Install essentials:
    +  `"%ProgramFiles%\Internet Explorer\iexplore.exe" -extoff "http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/joe-niland/windows-dev-box/master/install-base.ps1"`
+
+3. Install other scripts as required...
+
+Using this approach doesn't install BoxStarter or Chocolatey on your system so this might be appealing in some cases.
 
 ### Option 2: Running locally
 
