@@ -1,6 +1,6 @@
 # & .\install-dev-common.ps1
 
-cinst DotNet4.6 tfs2015powertools Linqpad4 dotpeek mssqlservermanagementstudio2014express
+cinst DotNet4.6 tfs2015powertools Linqpad4 dotpeek mssqlservermanagementstudio2014express tfs2013powertools
 # tfs2013powertools
 # EntityFrameworkPowerTools
 # webpi
