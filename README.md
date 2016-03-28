@@ -18,14 +18,16 @@ How to Use
 
 3. Install other scripts as required...
 
-Using this approach doesn't install BoxStarter or Chocolatey on your system so this might be appealing in some cases.
+Using this approach doesn't install BoxStarter or Chocolatey on your system (unless you explicitly install them within a script you pass to BoxStarter) so this might be appealing in some cases.
 
 ### Option 2: Running locally
 
 You can clone this repo, then install BoxStarter:
 
 Open the following URL in IE: **http://boxstarter.org/package/boxstarter**
-This will install BoxStarter on your system.
+This will install BoxStarter on your system. This will also work for other packages, e.g.
+
+http://boxstarter.org/package/nr/chocolatey
 
 Then run each script:
 
