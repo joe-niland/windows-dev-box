@@ -1,3 +1,4 @@
-cinst chocolatey GoogleChrome cmder lastpass git
-cinst TotalCommander -version 8.52.01
-choco install gcm -pre
+cinst chocolatey GoogleChrome cmder lastpass git -y
+cinst cmder -pre -y
+cinst TotalCommander -version 8.52.01 -y
+choco install gcm -pre -y
