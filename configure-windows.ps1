@@ -1,3 +1,4 @@
-Set-WindowsExplorerOptions -showFileExtensions
+Set-WindowsExplorerOptions -EnableShowFileExtension -EnableShowFullPathInTitleBar
 Enable-MicrosoftUpdate
 Update-ExecutionPolicy RemoteSigned
+Set-StartScreenOptions -EnableDesktopBackgroundOnStart -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView
