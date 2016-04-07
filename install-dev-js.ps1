@@ -2,4 +2,4 @@
 
 Write-Host "Installing Javascript (i.e. node.js) development components"
 
-cinst visualstudiocode nodejs.install ruby Compass Yeoman 
+cinst visualstudiocode nodejs.install ruby python Compass Yeoman 

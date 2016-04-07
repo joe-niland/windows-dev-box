@@ -1,4 +1,4 @@
 # Non-development tools
 
-cinst Firefox skype virtualclonedrive aria2
-cinst btsync -version 2.0.105
+cinst Firefox skype aria2 btsync evernote -y
+# virtualclonedrive
