@@ -3,7 +3,7 @@ Windows Dev Box Setup Scripts
 
 This repo stores scripts that I use to set up a new Windows dev box. I install large products such as Visual Studio from ISO, so they are not included. There **are** versions available in Chocolatey, though, so do this if this suits you better.
 
-**Currently only tested on Windows 7 64 bit**
+**Currently only tested on Windows 7 64 bit and Windows 10 64 bit**
 
 How to Use
 -------------
